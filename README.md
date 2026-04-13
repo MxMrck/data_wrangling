@@ -1,22 +1,17 @@
 # Big Smile Loyalty Program Data Wrangling Project
 
 ## Project Overview
-The Big Smile loyalty program data wrangling project aims to clean, transform, and analyze the data collected from the Big Smile loyalty program. This project seeks to ensure that the data is usable for further analysis and reporting, improving the insights gained from customer behavior.
+This repository showcases a comprehensive data wrangling that prepares data for downstream customer segmentation analysis through systematic cleaning, transformation, and feature engineering. The analysis is based on realistic datasets from a fictive Big Smile loyalty program.
 
 ## Files Description
-- **data/loyalty_data.csv**: This is the raw data file containing transaction records of loyalty program participants.
-- **notebooks/data_cleaning.ipynb**: This Jupyter notebook contains the step-by-step data cleaning process applied to the raw data. It covers how missing values were handled and how various data types were normalized.
-- **reports/summary_statistics.md**: This file provides a summary of the key statistics after the data wrangling process, including insights into customer spending and participation rates.
+- **BigSmile_Data_wrangling.ipynb**: This Jupyter notebook contains the step-by-step data cleaning process applied to the raw data into ready-to-us data for k-means algorythm usage
+- - **MEMBERS_DIM.csv**: File containing informations about members.
+- - **REWARD_FACT.csv**: File containing reccords of points redeemed by members
+- - **TRANSACTRIONS.csv**: !NOT INCLUDED! This is the raw data file containing transaction records of loyalty program participants. 
 
 ## Methodology
 1. **Data Collection**: The raw transaction data was collected from the Big Smile program's database.
-2. **Data Cleaning**: Missing values were identified and handled, duplicate entries were removed, and data types were standardized.
-3. **Data Transformation**: The cleaned data was transformed to create new features relevant to the analysis such as retention rates and average transaction values.
-4. **Data Analysis**: Exploratory data analysis (EDA) was conducted to uncover trends and patterns in customer behavior.
+2. **Data Cleaning**: Missing values were identified and handled
+3. **Data Transformation**: The cleaned data was transformed to create new features relevant to the analysis such as retention rates and average transaction values, dummies variables were created to prepare the dataset for machine learning operations.
+4. **Data Analysis and Segmation**: !NOT INCLUDED YET! Exploratory data analysis (EDA) and K-Means clustering algorithm were applied to segment members based on loyalty program usage patterns and points redemption behavior.
 
-## Key Features
-- **Robust Data Cleaning**: Comprehensive methods to handle missing and inconsistent data.
-- **Transformative Analysis**: Features that reveal customer spending habits and loyalty trends.
-- **Documentation**: Detailed documentation of the process for transparency and reproducibility.
-
-This project serves as a foundational step toward understanding customer loyalty and improving the Big Smile program's offerings.
