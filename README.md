@@ -1,7 +1,7 @@
 # Big Smile Loyalty Program Data Wrangling Project
 
 ## Project Overview
-This repository showcases a comprehensive data wrangling that prepares data for downstream customer segmentation analysis. Currently this repo provides documentation and codes samples for cleaning, transformation, and feature engineering. The analysis is based on realistic datasets from a fictive Big Smile loyalty program.
+This repository showcases a comprehensive data wrangling that prepares data for downstream customer segmentation analysis. Currently this repo provides documentation and codes samples for cleaning, transformation, and feature engineering. The analysis is based on real data from an existing loyalty program, its name has been changed for "Big Smile".
 
 ## Files Description
 - - **documentation.md** : project detailed documentation
